@@ -77,6 +77,17 @@ export default {
         'command.previous-tab': 'guia anterior',
         'help.previous-tab': 'Alternar para última guia',
       },
+      yue: {
+        'group.tab': 'Tabs',
+        'command.new-tab': 'new tab',
+        'help.new-tab': 'Opens a new tab',
+        'command.close-tab': 'close tab',
+        'help.close-tab': 'Closes the current tab',
+        'command.next-tab': 'next tab',
+        'help.next-tab': 'Switches to the following tab',
+        'command.previous-tab': 'previous tab',
+        'help.previous-tab': 'Switches to the previous tab',
+      },
     },
   }],
   i18n: {
@@ -91,6 +102,10 @@ export default {
     pt: {
       name: 'Guia',
       description: 'Este módulo permite que seja manuseada as guias do navegador.',
+    },
+    yue: {
+      name: 'Tabs',
+      description: 'This module allows you to manage the browser tabs.',
     },
   },
 };

@@ -69,6 +69,11 @@ export default {
         'group.downloads': 'Downloads',
         'help.downloads': 'Abre a lista de arquivos baixados',
       },
+      yue: {
+        'command.downloads': 'downloads',
+        'group.downloads': 'Downloads',
+        'help.downloads': 'Opens the downloaded file list',
+      },
     },
   }, {
     context: 'downloads',
@@ -124,6 +129,19 @@ export default {
         exit: 'Sair',
         'date-format': 'DD/MM/AAAA',
       },
+      yue: {
+        name: 'Downloads',
+        'command.scroll-up': 'scroll up',
+        'group.scroll-up': 'Scroll',
+        'help.scroll-up': 'Performs a scroll up of the list',
+        'command.scroll-down': 'scroll down',
+        'help.scroll-down': 'Performs a scroll down of the list',
+        'group.scroll-down': 'Scroll',
+        'scroll-up': 'Scroll Up',
+        'scroll-down': 'Scroll Down',
+        exit: 'Exit',
+        'date-format': 'MM/DD/YYYY',
+      },
     },
   }],
   i18n: {
@@ -138,6 +156,10 @@ export default {
     pt: {
       name: 'Downloads',
       description: 'Veja os arquivos baixados',
+    },
+    yue: {
+      name: 'Downloads',
+      description: 'See the downloaded files',
     },
   },
 };

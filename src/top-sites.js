@@ -78,6 +78,11 @@ export default {
         'group.top-sites': 'Sites mais acessados',
         'help.top-sites': 'Abre a lista dos sites mais acessados',
       },
+      yue: {
+        'command.top-sites': 'top sites',
+        'group.top-sites': 'Top sites',
+        'help.top-sites': 'Opens the most frequented site list',
+      },
     },
   }, {
     context: 'top-sites',
@@ -141,6 +146,20 @@ export default {
         exit: 'Sair',
         'help.*': 'Executa uma ação',
       },
+      yue: {
+        name: 'Top Sites',
+        'command.scroll-up': 'scroll up',
+        'group.scroll-up': 'Scroll',
+        'help.scroll-up': 'Performs a scroll up of the list',
+        'command.scroll-down': 'scroll down',
+        'help.scroll-down': 'Performs a scroll down of the list',
+        'group.scroll-down': 'Scroll',
+        'scroll-up': 'Scroll Up',
+        'scroll-down': 'Scroll Down',
+        open: 'Open',
+        exit: 'Exit',
+        'help.*': 'Execute an action',
+      },
     },
   }],
   i18n: {
@@ -155,6 +174,10 @@ export default {
     pt: {
       name: 'Sites mais acessados',
       description: 'Gerencia os sites mais acessados.',
+    },
+    yue: {
+      name: 'Top Sites',
+      description: 'Manage all about most frequented websites',
     },
   },
 };

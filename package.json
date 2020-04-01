@@ -1,7 +1,7 @@
 {
-  "name": "handsfree-core-modules",
+  "name": "handsfree-for-web-modules",
   "version": "1.0.0",
-  "description": "Voice commands modules for Handsfree for web and Handsfree for website",
+  "description": "Voice commands modules for Handsfree for web",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",

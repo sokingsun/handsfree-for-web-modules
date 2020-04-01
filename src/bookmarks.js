@@ -152,6 +152,14 @@ export default {
         'group.bookmarks': 'Favoritos',
         'help.bookmarks': 'Abrir lista de favoritos',
       },
+      yue: {
+        'command.add-bookmark': 'add bookmark',
+        'help.add-bookmark': 'Saves the current page as a bookmark',
+        'group.add-bookmark': 'Bookmarks',
+        'command.bookmarks': 'bookmarks',
+        'group.bookmarks': 'Bookmarks',
+        'help.bookmarks': 'Opens bookmark list',
+      },
     },
   }, {
     context: 'bookmarks',
@@ -218,6 +226,21 @@ export default {
         exit: 'Sair',
         'help.*': 'Executar ação',
       },
+      yue: {
+        name: 'Bookmarks',
+        'command.scroll-up': 'scroll up',
+        'group.scroll-up': 'Scroll',
+        'help.scroll-up': 'Performs a scroll up of the bookmark list',
+        'command.scroll-down': 'scroll down',
+        'help.scroll-down': 'Performs a scroll down of the bookmark list',
+        'group.scroll-down': 'Scroll',
+        'scroll-up': 'Scroll Up',
+        'scroll-down': 'Scroll Down',
+        open: 'Open',
+        delete: 'Delete',
+        exit: 'Exit',
+        'help.*': 'Execute an action',
+      },
     },
   }],
   i18n: {
@@ -232,6 +255,10 @@ export default {
     pt: {
       name: 'Favoritos',
       description: 'Gerenciador de favoritos',
+    },
+    yue: {
+      name: 'Bookmarks',
+      description: 'Manage all about bookmarks',
     },
   },
 };

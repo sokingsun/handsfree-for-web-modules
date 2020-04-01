@@ -90,6 +90,11 @@ export default {
         'group.history': 'Histórico',
         'help.history': 'Abre a lista de sites acessados',
       },
+      yue: {
+        'command.history': 'history',
+        'group.history': 'History',
+        'help.history': 'Opens the accessed website list',
+      },
     },
   }, {
     context: 'history',
@@ -159,6 +164,22 @@ export default {
         'date-format': 'DD/MM/AAAA',
         'no-title-provided': 'Sem título',
       },
+      yue: {
+        name: 'History',
+        'command.scroll-up': 'scroll up',
+        'group.scroll-up': 'Scroll',
+        'help.scroll-up': 'Performs a scroll up of the list',
+        'command.scroll-down': 'scroll down',
+        'help.scroll-down': 'Performs a scroll down of the list',
+        'group.scroll-down': 'Scroll',
+        'scroll-up': 'Scroll Up',
+        'scroll-down': 'Scroll Down',
+        open: 'Open',
+        exit: 'Exit',
+        'help.*': 'Execute an action',
+        'date-format': 'MM/DD/YYYY',
+        'no-title-provided': 'No title provided',
+      },
     },
   }],
   i18n: {
@@ -173,6 +194,10 @@ export default {
     pt: {
       name: 'Histórico',
       description: 'Gerenciar tudo sobre websites acessados',
+    },
+    yue: {
+      name: 'History',
+      description: 'Manage all about accessed websites',
     },
   },
 };
